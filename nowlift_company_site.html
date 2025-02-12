@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NowLift Company</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            color: #000000;
+            background-color: #e6d5b8; /* Beige plus foncé */
+            overflow-x: hidden;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #e6d5b8, #c5a87d); /* Dégradé or et beige */
+            border-bottom: 4px solid #daa520;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            color: #000000;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.3em;
+            color: #000000;
+            margin-top: 10px;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.2em;
+            color: #000000;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: #daa520;
+            margin: 10px auto 0;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background: linear-gradient(135deg, #e6d5b8, #daa520); /* Or et beige */
+            border: 1px solid #000000;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px;
+            flex: 1 1 calc(33.333% - 30px);
+            text-align: center;
+            color: #000000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        .service h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: linear-gradient(135deg, #c5a87d, #daa520); /* Dégradé or et beige */
+            color: #000000;
+            border-top: 4px solid #daa520;
+            border-bottom: 4px solid #daa520;
+            padding: 80px 20px;
+        }
+
+        .testimonial {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #e6d5b8;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .testimonial p {
+            font-size: 1.2em;
+            color: #000000;
+        }
+
+        .testimonial span {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.1em;
+            font-style: italic;
+            color: #000000;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #c5a87d;
+            color: #000000;
+        }
+
+        footer a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NowLift Company</h1>
+        <p>Propulsez votre marque avec notre expertise en marketing digital</p>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Gestion des Réseaux Sociaux</h3>
+                <p>Optimisez votre présence en ligne et connectez-vous avec votre audience.</p>
+            </div>
+            <div class="service">
+                <h3>Publicités Ciblées</h3>
+                <p>Des campagnes publicitaires performantes pour maximiser vos conversions.</p>
+            </div>
+            <div class="service">
+                <h3>Création de Contenu</h3>
+                <p>Du contenu engageant et créatif pour représenter votre marque.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">Témoignages de Clients</h2>
+        <div class="testimonial">
+            <p>"NowLift Company a transformé notre stratégie marketing. Nos ventes ont augmenté de 50% en seulement 3 mois !"</p>
+            <span>- Alex Dupont, PDG de TechCorp</span>
+        </div>
+        <div class="testimonial">
+            <p>"Un service impeccable et une équipe toujours à l'écoute. Je recommande vivement !"</p>
+            <span>- Marie Laurent, Fondatrice de CréaDesign</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NowLift Company - Tous droits réservés</p>
+        <p>Suivez-nous sur <a href="https://www.instagram.com/nowliftcompany/" target="_blank">Instagram</a></p>
+    </footer>
+</body>
+</html>
